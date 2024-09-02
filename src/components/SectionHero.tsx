@@ -1,6 +1,6 @@
 export default function SectionHero() {
   return (
-    <section className="m-auto flex h-[70vh] max-w-7xl gap-24 py-12">
+    <section className="m-auto flex h-[600px] max-w-7xl gap-24 py-12">
       <div className="h-full w-1/2">
         <div className="flex h-full w-full flex-col justify-center gap-8">
           <h6 className="text-md uppercase text-[#7d7d7f]">
