@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SectionTestimonials() {
   return (
     <section className="h-full w-full pt-12">
-      <div className="bg-image-testimonials h-full w-full bg-indigo-700 bg-cover bg-center bg-no-repeat bg-blend-multiply">
+      <div className="h-full w-full bg-indigo-700 bg-image-testimonials bg-cover bg-center bg-no-repeat bg-blend-multiply">
         <div className="mx-auto flex h-full max-w-7xl flex-col items-center gap-12 py-24">
           <h1 className="w-3/4 text-balance text-center text-4xl font-extrabold text-[#f5f5f5]">
             {`Helping the world's most innovative companies to work better, daily.`}
