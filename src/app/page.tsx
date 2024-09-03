@@ -6,6 +6,7 @@ import SectionShowcase from "@/components/SectionShowcase";
 import SectionCapabilities from "@/components/SectionCapabilities";
 import SectionPlans from "@/components/SectionPlans";
 import SectionNewsLetter from "@/components/SectionNewsLetter";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionCapabilities />
       <SectionPlans />
       <SectionNewsLetter />
+      <Footer />
     </main>
   );
 }
