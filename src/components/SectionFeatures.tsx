@@ -1,3 +1,5 @@
+import { MoveRight } from "lucide-react";
+
 export default function SectionFeatures() {
   return (
     <section className="mx-auto h-full max-w-7xl py-12">
@@ -29,8 +31,11 @@ export default function SectionFeatures() {
                 {`Explore our innovative solutions designed to revolutionize your
                 experiece and kickstart your team's success.`}
               </p>
-              <button className="w-fit text-lg font-normal text-indigo-600">
-                Learn how to innovate
+              <button className="flex w-fit items-center gap-4">
+                <span className="text-xl font-normal text-indigo-600">
+                  Learn how to innovate
+                </span>
+                <MoveRight size={30} color="#5046e6" />
               </button>
             </div>
           </div>

@@ -1,33 +1,48 @@
+import {
+  Box,
+  ChartNoAxesColumnIncreasing,
+  Database,
+  HardDrive,
+  LifeBuoy,
+  Link,
+} from "lucide-react";
+
 export default function SectionCapabilities() {
   const capabilities = [
     {
       name: "AI-Enhanced",
       description: `Experience advanced automation with intelligent algorithms to boost efficiency and streamline your tasks.`,
+      icon: <HardDrive size={40} color="#5046e6" />,
     },
     {
       name: "Usage Optimization",
       description:
         "Achieve peak performance using intelligent resource management and smart efficiency tools for your workflow.",
+      icon: <ChartNoAxesColumnIncreasing size={40} color="#5046e6" />,
     },
     {
       name: "Integrations",
       description:
         "Seamlessly connect your favorite tools and platforms with our intelligent, hassle-free integration solutions.",
+      icon: <Link size={40} color="#5046e6" />,
     },
     {
       name: "Historical Data",
       description:
         "Get access to past insights with comprehensive historical data for informed decision-making and planning.",
+      icon: <Database size={40} color="#5046e6" />,
     },
     {
       name: "24/7 Support",
       description:
         "We're here for you around the clock with reliable 24/7 support, ensuring your needs are met anytime, anywhere.",
+      icon: <LifeBuoy size={40} color="#5046e6" />,
     },
     {
       name: "Community Plugins",
       description:
         "Enhance your UX with community-driven plugins, expanding functionality and customization options.",
+      icon: <Box size={40} color="#5046e6" />,
     },
   ];
 
@@ -47,7 +62,7 @@ export default function SectionCapabilities() {
               className="flex h-64 w-[30%] flex-col items-center gap-4 rounded-3xl bg-[#18181a] p-8"
               key={capability.name}
             >
-              <div className="h-10 w-10 rounded-full bg-indigo-600"></div>
+              {capability.icon}
               <h6 className="text-xl font-extrabold text-white">
                 {capability.name}
               </h6>
