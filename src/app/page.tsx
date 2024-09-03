@@ -4,6 +4,7 @@ import SectionClients from "@/components/SectionClients";
 import SectionFeatures from "@/components/SectionFeatures";
 import SectionShowcase from "@/components/SectionShowcase";
 import SectionCapabilities from "@/components/SectionCapabilities";
+import SectionPlans from "@/components/SectionPlans";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionFeatures />
       <SectionShowcase />
       <SectionCapabilities />
+      <SectionPlans />
     </main>
   );
 }
