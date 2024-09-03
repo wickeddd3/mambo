@@ -56,10 +56,10 @@ export default function SectionCapabilities() {
           Maximize your productivity and save time with our revolutionary
           product and its powerful set of features
         </p>
-        <div className="flex w-full flex-wrap gap-8">
+        <div className="flex w-full flex-wrap justify-center gap-8">
           {capabilities.map((capability) => (
             <div
-              className="flex h-64 w-[30%] flex-col items-center gap-4 rounded-3xl bg-[#18181a] p-8"
+              className="flex h-64 w-[31.6%] flex-col items-center gap-4 rounded-3xl bg-[#18181a] p-8"
               key={capability.name}
             >
               {capability.icon}
