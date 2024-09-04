@@ -3,7 +3,7 @@ import { CircleCheck, PlayIcon } from "lucide-react";
 export default function SectionHero() {
   return (
     <section className="m-auto flex h-[600px] max-w-7xl gap-24 py-12">
-      <div className="h-full w-1/2">
+      <div className="h-full w-2/5">
         <div className="flex h-full w-full flex-col justify-center gap-8">
           <div className="flex items-center gap-4">
             <CircleCheck size={20} absoluteStrokeWidth={true} color="#5046e6" />
@@ -29,9 +29,9 @@ export default function SectionHero() {
           </div>
         </div>
       </div>
-      <div className="h-full w-1/2">
-        <div className="h-full w-full rounded-bl-2xl rounded-tl-2xl border-y-2 border-l-2 border-indigo-600 py-2 pl-2">
-          <div className="h-full w-full rounded-bl-2xl rounded-tl-2xl bg-black"></div>
+      <div className="h-full w-3/5">
+        <div className="h-full w-full rounded-2xl border-2 border-indigo-600 p-2">
+          <div className="h-full w-full rounded-2xl bg-black"></div>
         </div>
       </div>
     </section>
