@@ -41,7 +41,13 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
+    title: "Mambo",
+    description: "Experience seamless workflow",
+    url: "https://mambo-website.vercel.app",
+    siteName: "Mambo",
     images: "/og-image.png",
+    locale: "en_US",
+    type: "website",
   },
 };
 
