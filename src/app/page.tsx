@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="h-full w-full flex-wrap">
+    <main className="h-full w-full flex-wrap bg-[#09090b]">
       <Navbar />
       <SectionHero />
       <SectionClients />
