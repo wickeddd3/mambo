@@ -15,16 +15,16 @@ export default function Home() {
       <Navbar />
       <SectionHero />
       <SectionClients />
-      <div className="bg-gradient-fade-both-side mx-auto h-[1.5px] max-w-7xl"></div>
+      <div className="mx-auto h-[1.5px] max-w-7xl bg-gradient-fade-both-side"></div>
       <SectionFeatures />
-      <div className="bg-gradient-fade-both-side mx-auto h-[1.5px] max-w-lg"></div>
+      <div className="mx-auto h-[1.5px] max-w-lg bg-gradient-fade-both-side"></div>
       <SectionShowcase />
-      <div className="bg-gradient-fade-both-side mx-auto h-[1.5px] max-w-lg"></div>
+      <div className="mx-auto h-[1.5px] max-w-lg bg-gradient-fade-both-side"></div>
       <SectionCapabilities />
       <SectionPlans />
       <SectionTestimonials />
       <SectionNewsLetter />
-      <div className="bg-gradient-footer-fade-both-side mx-auto h-[1px] max-w-7xl"></div>
+      <div className="mx-auto h-[1px] max-w-7xl bg-gradient-footer-fade-both-side"></div>
       <Footer />
     </main>
   );
