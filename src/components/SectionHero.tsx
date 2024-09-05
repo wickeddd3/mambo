@@ -2,35 +2,37 @@ import { CircleCheck, PlayIcon } from "lucide-react";
 
 export default function SectionHero() {
   return (
-    <section className="m-auto flex h-[600px] max-w-7xl gap-24 py-12">
-      <div className="h-full w-2/5">
-        <div className="flex h-full w-full flex-col justify-center gap-8">
+    <section className="m-auto flex h-full max-w-7xl flex-wrap gap-10 px-4 py-8 md:py-12 lg:flex-nowrap lg:gap-4">
+      <div className="w-ful h-full lg:w-2/5">
+        <div className="flex h-full w-full flex-col justify-center gap-4">
           <div className="flex items-center gap-4">
             <CircleCheck size={20} absoluteStrokeWidth={true} color="#5046e6" />
-            <h6 className="text-md uppercase text-[#7d7d7f]">
+            <h6 className="md:text-md text-sm uppercase text-[#7d7d7f]">
               FREE 14 DAYS TRIAL
             </h6>
           </div>
-          <h1 className="text-7xl font-extrabold text-[#f5f5f5]">
+          <h1 className="text-4xl font-extrabold text-[#f5f5f5] md:text-5xl lg:text-6xl">
             Experience seamless workflow.
           </h1>
-          <p className="text-balance text-lg text-[#a7a7a7]">
+          <p className="text-md text-balance text-[#a7a7a7] md:text-lg">
             Maximize productivity and save time with our revolutionary approach.
             Deliver improved performance and better team coordination.
           </p>
-          <div className="flex gap-4">
-            <button className="text-md rounded-xl bg-indigo-600 px-8 py-3 font-bold">
+          <div className="flex flex-wrap gap-4 md:flex-nowrap">
+            <button className="md:text-md w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold md:w-fit">
               Try for free
             </button>
-            <button className="flex items-center gap-4 rounded-xl border-2 border-white px-8 py-3">
+            <button className="flex w-full items-center justify-center gap-4 rounded-xl border-2 border-white px-8 py-3 md:w-fit">
               <PlayIcon size={20} absoluteStrokeWidth={true} />
-              <span className="text-md font-bold">See how it works</span>
+              <span className="md:text-md text-sm font-bold">
+                See how it works
+              </span>
             </button>
           </div>
         </div>
       </div>
-      <div className="h-full w-3/5">
-        <div className="h-full w-full rounded-2xl border-2 border-indigo-600 p-2">
+      <div className="h-full w-full lg:w-3/5">
+        <div className="h-[360px] w-full rounded-2xl border-2 border-indigo-600 p-2 md:h-[500px]">
           <div className="h-full w-full rounded-2xl bg-black"></div>
         </div>
       </div>

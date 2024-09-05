@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function SectionTestimonials() {
   return (
-    <section className="h-full w-full pt-12">
+    <section className="h-full w-full py-8 md:py-12">
       <div className="h-full w-full bg-indigo-700 bg-image-testimonials bg-cover bg-center bg-no-repeat bg-blend-multiply">
         <div className="mx-auto flex h-full max-w-7xl flex-col items-center gap-12 py-24">
-          <h1 className="w-3/4 text-balance text-center text-4xl font-extrabold text-[#f5f5f5]">
+          <h1 className="w-3/4 text-balance text-center text-2xl font-extrabold text-[#f5f5f5] md:text-3xl lg:text-4xl">
             {`Helping the world's most innovative companies to work better, daily.`}
           </h1>
           <div className="flex w-full items-center justify-around gap-6">

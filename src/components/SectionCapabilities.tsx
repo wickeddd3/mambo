@@ -47,26 +47,26 @@ export default function SectionCapabilities() {
   ];
 
   return (
-    <section className="mx-auto h-full max-w-7xl py-12">
+    <section className="mx-auto h-full max-w-7xl px-4 py-8 md:py-12">
       <div className="flex w-full flex-col items-center gap-10">
-        <h1 className="max-w-2xl text-center text-4xl font-extrabold text-[#f5f5f5]">
+        <h1 className="max-w-2xl text-center text-3xl font-extrabold text-[#f5f5f5] md:text-4xl">
           Core capabilities and ways to accelerate innovation.
         </h1>
-        <p className="max-w-2xl text-center text-lg text-[#58585a]">
+        <p className="text-md max-w-2xl text-center text-[#58585a] md:text-lg">
           Maximize your productivity and save time with our revolutionary
           product and its powerful set of features
         </p>
-        <div className="flex w-full flex-wrap justify-center gap-8">
+        <div className="flex w-full flex-wrap items-center justify-center gap-8">
           {capabilities.map((capability) => (
             <div
-              className="flex h-64 w-[31.6%] flex-col items-center gap-4 rounded-3xl bg-[#18181a] p-8"
+              className="flex h-full w-full flex-col items-center justify-center gap-4 rounded-3xl bg-[#18181a] p-8 md:w-[50%] lg:w-[31.6%]"
               key={capability.name}
             >
               {capability.icon}
-              <h6 className="text-xl font-extrabold text-white">
+              <h6 className="text-lg font-extrabold text-white md:text-xl">
                 {capability.name}
               </h6>
-              <p className="text-md max-w-xl text-center text-[#a7a7a7]">
+              <p className="md:text-md max-w-xl text-center text-sm text-[#a7a7a7]">
                 {capability.description}
               </p>
             </div>
