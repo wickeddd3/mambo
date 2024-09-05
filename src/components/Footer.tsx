@@ -18,48 +18,88 @@ export default function Footer() {
         <div className="flex h-full w-full flex-col gap-20">
           <div className="flex h-full w-full flex-wrap gap-12 md:justify-between">
             <div className="flex flex-col gap-8">
-              <h6 className="text-xs font-semibold md:text-sm">Product</h6>
-              <h6 className="text-xs font-light md:text-sm">Dashboard</h6>
-              <h6 className="text-xs font-light md:text-sm">
+              <h6 className="text-xs font-bold text-white md:text-sm">
+                Product
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Dashboard
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
                 Apps & Integrations
               </h6>
-              <h6 className="text-xs font-light md:text-sm">
+              <h6 className="text-xs font-normal text-white md:text-sm">
                 Developer Platform
               </h6>
-              <h6 className="text-xs font-light md:text-sm">Mambo for IOS</h6>
-              <h6 className="text-xs font-light md:text-sm">Enterprise</h6>
-              <h6 className="text-xs font-light md:text-sm">Accessibility</h6>
-              <h6 className="text-xs font-light md:text-sm">Changelog</h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Mambo for IOS
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Enterprise
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Accessibility
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Changelog
+              </h6>
             </div>
             <div className="flex flex-col gap-8">
-              <h6 className="text-xs font-semibold md:text-sm">
+              <h6 className="text-xs font-bold text-white md:text-sm">
                 Customer Support
               </h6>
-              <h6 className="text-xs font-light md:text-sm">Contact</h6>
-              <h6 className="text-xs font-light md:text-sm">Payments</h6>
-              <h6 className="text-xs font-light md:text-sm">Redeem Code</h6>
-              <h6 className="text-xs font-light md:text-sm">
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Contact
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Payments
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Redeem Code
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
                 Educational & NPOs
               </h6>
             </div>
             <div className="flex flex-col gap-8">
-              <h6 className="text-xs font-semibold md:text-sm">Corporate</h6>
-              <h6 className="text-xs font-light md:text-sm">About Us</h6>
-              <h6 className="text-xs font-light md:text-sm">Business</h6>
-              <h6 className="text-xs font-light md:text-sm">Pricing</h6>
-              <h6 className="text-xs font-light md:text-sm">Publications</h6>
-              <h6 className="text-xs font-light md:text-sm">Investors</h6>
+              <h6 className="text-xs font-bold text-white md:text-sm">
+                Corporate
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                About Us
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Business
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Pricing
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Publications
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Investors
+              </h6>
             </div>
             <div className="flex flex-col gap-8">
-              <h6 className="text-xs font-semibold md:text-sm">Resources</h6>
-              <h6 className="text-xs font-light md:text-sm">{`What's new`}</h6>
-              <h6 className="text-xs font-light md:text-sm">Blog</h6>
-              <h6 className="text-xs font-light md:text-sm">Help Center</h6>
-              <h6 className="text-xs font-light md:text-sm">Press</h6>
+              <h6 className="text-xs font-bold text-white md:text-sm">
+                Resources
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">{`What's new`}</h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Blog
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Help Center
+              </h6>
+              <h6 className="text-xs font-normal text-white md:text-sm">
+                Press
+              </h6>
             </div>
             <div className="flex flex-col gap-24">
               <div className="flex flex-col gap-8">
-                <h6 className="text-xs font-semibold md:text-sm">Location</h6>
+                <h6 className="text-xs font-bold text-white md:text-sm">
+                  Location
+                </h6>
                 <ReactFlagsSelect
                   selected={selected}
                   onSelect={(code) => setSelected(code)}

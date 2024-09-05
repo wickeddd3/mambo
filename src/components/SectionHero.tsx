@@ -19,12 +19,12 @@ export default function SectionHero() {
             Deliver improved performance and better team coordination.
           </p>
           <div className="flex flex-wrap gap-4 md:flex-nowrap">
-            <button className="w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold md:w-fit md:text-md">
+            <button className="w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold text-white md:w-fit md:text-md">
               Try for free
             </button>
             <button className="flex w-full items-center justify-center gap-4 rounded-xl border-2 border-white px-8 py-3 md:w-fit">
               <PlayIcon size={20} absoluteStrokeWidth={true} />
-              <span className="text-sm font-bold md:text-md">
+              <span className="text-sm font-bold text-white md:text-md">
                 See how it works
               </span>
             </button>

@@ -19,7 +19,7 @@ export default function Navbar() {
               className="cursor-pointer rounded-xl border border-[#272526] bg-[#18181a] p-2 hover:border-indigo-600"
               onClick={toggleVisibility}
             >
-              <Menu size={20} />
+              <Menu size={20} color="#f7f7f7" />
             </button>
             {visible && (
               <ul
@@ -54,7 +54,7 @@ export default function Navbar() {
             )}
           </div>
           <div className="relative">
-            <h1 className="text-xl font-extrabold">Mambo</h1>
+            <h1 className="text-xl font-extrabold text-white">Mambo</h1>
             <span className="absolute -right-3 top-0 h-2.5 w-2.5 rounded-full bg-indigo-600"></span>
           </div>
         </div>
@@ -66,10 +66,10 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="flex items-center gap-8">
-        <button className="rounded-xl px-6 py-2 text-sm font-semibold md:px-8 md:py-3 md:text-md">
+        <button className="rounded-xl px-6 py-2 text-sm font-semibold text-white md:px-8 md:py-3 md:text-md">
           Log in
         </button>
-        <button className="rounded-xl bg-indigo-600 px-6 py-2 text-sm font-semibold md:px-8 md:py-3 md:text-md">
+        <button className="rounded-xl bg-indigo-600 px-6 py-2 text-sm font-semibold text-white md:px-8 md:py-3 md:text-md">
           Sign up
         </button>
       </div>

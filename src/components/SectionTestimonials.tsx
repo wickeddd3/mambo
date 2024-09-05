@@ -67,7 +67,7 @@ export default function SectionTestimonials() {
                 <SwiperSlide style={{ width: "500px" }} key={testimonial.name}>
                   <div className="flex h-full w-full gap-6 rounded-[2.5rem] bg-indigo-600 p-6 md:gap-12 md:p-8">
                     <div className="flex w-3/5 flex-col gap-8">
-                      <p className="text-xs font-normal md:text-sm">
+                      <p className="text-xs font-normal text-indigo-100 md:text-sm">
                         {testimonial.message}
                       </p>
                       <div className="flex flex-col">
@@ -96,16 +96,16 @@ export default function SectionTestimonials() {
           </div>
           <div className="flex w-full max-w-7xl items-center justify-between px-4">
             <button className="flex items-center gap-4 rounded-xl border-2 border-white px-4 py-2 md:px-8 md:py-3">
-              <span className="text-sm font-bold md:text-md">
+              <span className="text-sm font-bold text-white md:text-md">
                 Read more customer stories
               </span>
             </button>
             <div className="flex items-center gap-2 md:gap-4">
               <button className="custom-prev cursor-pointer rounded-xl bg-indigo-600 p-3 hover:bg-indigo-700 md:p-4">
-                <MoveLeft size={20} />
+                <MoveLeft size={20} color="#f7f7f7" />
               </button>
               <button className="custom-next cursor-pointer rounded-xl bg-indigo-600 p-3 hover:bg-indigo-700 md:p-4">
-                <MoveRight size={20} />
+                <MoveRight size={20} color="#f7f7f7" />
               </button>
             </div>
           </div>
