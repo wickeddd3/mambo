@@ -17,7 +17,32 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: "Mambo",
-  description: "",
+  description: "Experience seamless workflow",
+  generator: "Next.js",
+  applicationName: "Mambo",
+  referrer: "origin-when-cross-origin",
+  keywords: ["Next.js", "React", "Typescript"],
+  authors: [
+    { name: "Philip", url: "https://philip-andrew-portfolio.netlify.app" },
+  ],
+  creator: "Philip Andrew",
+  publisher: "Philip Andrew",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://mambo-website.vercel.app"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "de-DE": "/de-DE",
+    },
+  },
+  openGraph: {
+    images: "/og-image.png",
+  },
 };
 
 export default function RootLayout({
