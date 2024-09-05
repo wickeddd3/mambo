@@ -37,6 +37,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "image-testimonials":
           "url('/testimonials/testimonials-background.jpg')",
+        "gradient-fade-both-side":
+          "linear-gradient(to right, rgba(30, 30, 32, 0), #1c1b20 50%, rgba(30, 30, 32, 0))",
+        "gradient-footer-fade-both-side":
+          "linear-gradient(to right, rgba(30, 30, 32, 0), #4f46e5 50%, rgba(30, 30, 32, 0))",
       },
     },
   },
