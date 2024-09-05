@@ -7,14 +7,14 @@ export default function SectionHero() {
         <div className="flex h-full w-full flex-col gap-4">
           <div className="flex items-center gap-4">
             <CircleCheck size={20} absoluteStrokeWidth={true} color="#5046e6" />
-            <h6 className="text-sm uppercase text-[#7d7d7f] md:text-md">
+            <h6 className="text-sm font-medium uppercase text-neutral-500 md:text-md">
               FREE 14 DAYS TRIAL
             </h6>
           </div>
-          <h1 className="text-4xl font-extrabold leading-10 text-[#f5f5f5] md:text-5xl md:leading-[4.5rem] lg:text-6xl">
+          <h1 className="text-4xl font-extrabold leading-10 text-neutral-100 md:text-5xl md:leading-[4.5rem] lg:text-6xl">
             Experience seamless workflow.
           </h1>
-          <p className="text-pretty text-md text-[#a7a7a7] md:text-lg">
+          <p className="text-pretty text-md text-neutral-400 md:text-lg">
             Maximize productivity and save time with our revolutionary approach.
             Deliver improved performance and better team coordination.
           </p>
@@ -33,7 +33,7 @@ export default function SectionHero() {
       </div>
       <div className="h-full w-full lg:w-3/5">
         <div className="h-[360px] w-full rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-1 md:h-[500px]">
-          <div className="h-full w-full rounded-2xl bg-black"></div>
+          <div className="h-full w-full rounded-2xl bg-[#000000]"></div>
         </div>
       </div>
     </section>

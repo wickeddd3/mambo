@@ -60,9 +60,9 @@ export default function Navbar() {
         </div>
         <ul className="hidden items-center gap-8 lg:flex">
           <li className="text-md font-semibold">Home</li>
-          <li className="text-md font-semibold text-gray-400">Pricing</li>
-          <li className="text-md font-semibold text-gray-400">About Us</li>
-          <li className="text-md font-semibold text-gray-400">Contact</li>
+          <li className="text-md font-semibold text-neutral-500">Pricing</li>
+          <li className="text-md font-semibold text-neutral-500">About Us</li>
+          <li className="text-md font-semibold text-neutral-500">Contact</li>
         </ul>
       </div>
       <div className="flex items-center gap-8">

@@ -49,30 +49,30 @@ export default function SectionCapabilities() {
   return (
     <section className="mx-auto h-full max-w-7xl px-4 py-8 md:py-12">
       <div className="flex w-full flex-col items-center gap-10">
-        <h1 className="max-w-2xl text-center text-3xl font-extrabold text-[#f5f5f5] md:text-4xl">
+        <h1 className="max-w-2xl text-center text-3xl font-extrabold text-neutral-100 md:text-4xl">
           Core capabilities and ways to accelerate innovation.
         </h1>
-        <p className="max-w-2xl text-center text-md text-[#58585a] md:text-lg">
+        <p className="max-w-2xl text-center text-md font-medium text-neutral-500 md:text-lg">
           Maximize your productivity and save time with our revolutionary
           product and its powerful set of features
         </p>
         <div className="flex w-full flex-wrap items-center justify-center gap-8">
           {capabilities.map((capability) => (
             <div
-              className="flex h-full w-full flex-col items-center justify-center gap-4 rounded-3xl bg-[#18181a] p-8 md:w-[50%] lg:w-[31.6%]"
+              className="flex h-full w-full flex-col items-center justify-center gap-4 rounded-3xl bg-neutral-900 p-8 md:w-[50%] lg:w-[31.6%]"
               key={capability.name}
             >
               {capability.icon}
-              <h6 className="text-lg font-extrabold text-white md:text-xl">
+              <h6 className="text-lg font-extrabold text-neutral-100 md:text-xl">
                 {capability.name}
               </h6>
-              <p className="max-w-xl text-center text-sm text-[#a7a7a7] md:text-md">
+              <p className="max-w-xl text-center text-sm text-neutral-400 md:text-md">
                 {capability.description}
               </p>
             </div>
           ))}
         </div>
-        <p className="text-center text-xs text-[#58585a]">
+        <p className="text-center text-xs text-neutral-600">
           Explore 200+ plugins for limitless customization and enhanced
           functionality
         </p>

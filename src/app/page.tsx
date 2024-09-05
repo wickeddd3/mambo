@@ -11,11 +11,11 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="h-full w-full flex-wrap bg-[#09090b]">
+    <main className="h-full w-full flex-wrap bg-neutral-950">
       <Navbar />
       <SectionHero />
       <SectionClients />
-      <div className="mx-auto h-[1.5px] max-w-7xl bg-gradient-fade-both-side"></div>
+      <div className="mx-auto h-[1.5px] max-w-5xl bg-gradient-fade-both-side"></div>
       <SectionFeatures />
       <div className="mx-auto h-[1.5px] max-w-lg bg-gradient-fade-both-side"></div>
       <SectionShowcase />
