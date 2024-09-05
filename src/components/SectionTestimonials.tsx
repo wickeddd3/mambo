@@ -86,7 +86,7 @@ export default function SectionTestimonials() {
                         height={150}
                         loading="eager"
                         alt="client-1"
-                        className="rounded-[2.5rem]"
+                        className="h-auto w-auto rounded-[2.5rem]"
                       />
                     </div>
                   </div>
@@ -96,7 +96,7 @@ export default function SectionTestimonials() {
           </div>
           <div className="flex w-full max-w-7xl items-center justify-between px-4">
             <button className="flex items-center gap-4 rounded-xl border-2 border-white px-4 py-2 md:px-8 md:py-3">
-              <span className="md:text-md text-sm font-bold">
+              <span className="text-sm font-bold md:text-md">
                 Read more customer stories
               </span>
             </button>
