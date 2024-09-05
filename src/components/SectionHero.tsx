@@ -11,10 +11,10 @@ export default function SectionHero() {
               FREE 14 DAYS TRIAL
             </h6>
           </div>
-          <h1 className="text-4xl font-extrabold text-[#f5f5f5] md:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-extrabold leading-10 text-[#f5f5f5] md:text-5xl md:leading-[4.5rem] lg:text-6xl">
             Experience seamless workflow.
           </h1>
-          <p className="text-balance text-md text-[#a7a7a7] md:text-lg">
+          <p className="text-pretty text-md text-[#a7a7a7] md:text-lg">
             Maximize productivity and save time with our revolutionary approach.
             Deliver improved performance and better team coordination.
           </p>
