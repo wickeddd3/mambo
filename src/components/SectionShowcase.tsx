@@ -9,7 +9,7 @@ export default function SectionShowcase() {
           Optimize your efficiency with our cutting-edge IT solution featuring
           an intuitive dashboard to enhance your workflow
         </p>
-        <div className="h-[360px] w-full rounded-2xl bg-black sm:h-[500px] md:h-[600px] lg:h-[700px]"></div>
+        <div className="h-[360px] w-full rounded-2xl bg-neutral-900 sm:h-[500px] md:h-[600px] lg:h-[700px]"></div>
       </div>
     </section>
   );

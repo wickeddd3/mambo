@@ -33,7 +33,7 @@ export default function SectionHero() {
       </div>
       <div className="h-full w-full lg:w-3/5">
         <div className="h-[360px] w-full rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-1 md:h-[500px]">
-          <div className="h-full w-full rounded-2xl bg-[#000000]"></div>
+          <div className="h-full w-full rounded-2xl bg-neutral-900"></div>
         </div>
       </div>
     </section>
