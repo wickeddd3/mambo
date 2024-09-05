@@ -18,7 +18,7 @@ export default function SectionFeatures() {
             Execute
           </button>
         </div>
-        <div className="flex h-full w-full flex-wrap-reverse gap-12 py-4 md:gap-14 md:py-12 lg:flex-nowrap">
+        <div className="flex h-full w-full flex-wrap-reverse items-center gap-12 py-4 md:gap-14 md:py-12 lg:flex-nowrap">
           <div className="h-full w-full lg:w-1/2">
             <div className="h-[360px] w-full rounded-2xl bg-black md:h-[400px]"></div>
           </div>
