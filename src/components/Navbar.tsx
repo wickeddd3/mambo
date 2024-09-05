@@ -8,7 +8,6 @@ export default function Navbar() {
 
   const toggleVisibility = () => {
     setVisible(!visible);
-    console.log("test");
   };
 
   return (
