@@ -27,7 +27,7 @@ export default function Navbar() {
                 onBlur={() => setVisible(false)}
               >
                 <li
-                  className="cursor-pointer px-4 py-2 text-md font-semibold hover:bg-[#252529] hover:font-extrabold hover:text-indigo-600"
+                  className="cursor-pointer px-4 py-2 text-md font-semibold text-white hover:bg-[#252529] hover:font-extrabold hover:text-indigo-600"
                   onClick={() => setVisible(false)}
                 >
                   Home
@@ -59,7 +59,7 @@ export default function Navbar() {
           </div>
         </div>
         <ul className="hidden items-center gap-8 lg:flex">
-          <li className="text-md font-semibold">Home</li>
+          <li className="text-md font-semibold text-white">Home</li>
           <li className="text-md font-semibold text-neutral-500">Pricing</li>
           <li className="text-md font-semibold text-neutral-500">About Us</li>
           <li className="text-md font-semibold text-neutral-500">Contact</li>
