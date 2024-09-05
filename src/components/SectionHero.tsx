@@ -23,7 +23,7 @@ export default function SectionHero() {
               Try for free
             </button>
             <button className="flex w-full items-center justify-center gap-4 rounded-xl border-2 border-white px-8 py-3 md:w-fit">
-              <PlayIcon size={20} absoluteStrokeWidth={true} />
+              <PlayIcon size={20} absoluteStrokeWidth={true} color="#f7f7f7" />
               <span className="text-sm font-bold text-white md:text-md">
                 See how it works
               </span>
