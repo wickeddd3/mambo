@@ -5,7 +5,7 @@ export default function SectionShowcase() {
         <h1 className="text-center text-4xl font-extrabold text-[#f5f5f5] md:text-5xl">
           Productivity. Redefined
         </h1>
-        <p className="text-md max-w-xl text-center text-[#a7a7a7] md:text-lg">
+        <p className="max-w-xl text-center text-md text-[#a7a7a7] md:text-lg">
           Optimize your efficiency with our cutting-edge IT solution featuring
           an intuitive dashboard to enhance your workflow
         </p>

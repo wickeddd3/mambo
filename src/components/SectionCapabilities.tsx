@@ -52,7 +52,7 @@ export default function SectionCapabilities() {
         <h1 className="max-w-2xl text-center text-3xl font-extrabold text-[#f5f5f5] md:text-4xl">
           Core capabilities and ways to accelerate innovation.
         </h1>
-        <p className="text-md max-w-2xl text-center text-[#58585a] md:text-lg">
+        <p className="max-w-2xl text-center text-md text-[#58585a] md:text-lg">
           Maximize your productivity and save time with our revolutionary
           product and its powerful set of features
         </p>
@@ -66,7 +66,7 @@ export default function SectionCapabilities() {
               <h6 className="text-lg font-extrabold text-white md:text-xl">
                 {capability.name}
               </h6>
-              <p className="md:text-md max-w-xl text-center text-sm text-[#a7a7a7]">
+              <p className="max-w-xl text-center text-sm text-[#a7a7a7] md:text-md">
                 {capability.description}
               </p>
             </div>

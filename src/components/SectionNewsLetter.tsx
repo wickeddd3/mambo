@@ -6,7 +6,7 @@ export default function SectionNewsLetter() {
           <h1 className="text-center text-2xl font-extrabold text-[#f5f5f5] md:text-balance md:text-3xl lg:text-4xl">
             Join our community of over 2 million users today!
           </h1>
-          <p className="text-md max-w-xl text-center text-[#a7a7a7] md:text-lg">
+          <p className="max-w-xl text-center text-md text-[#a7a7a7] md:text-lg">
             Become part of the thousands of teams working together and achieving
             their best with Mambo.
           </p>
@@ -14,9 +14,9 @@ export default function SectionNewsLetter() {
             <input
               type="text"
               placeholder="Enter your work email"
-              className="md:placeholder:text-md h-fit w-1/2 flex-grow rounded-xl border-2 border-[#272526] bg-[#09090b] px-4 py-3 placeholder:text-sm placeholder:text-[#a4a09d]"
+              className="h-fit w-1/2 flex-grow rounded-xl border-2 border-[#272526] bg-[#09090b] px-4 py-3 placeholder:text-sm placeholder:text-[#a4a09d] md:placeholder:text-md"
             />
-            <button className="md:text-md w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold md:w-fit">
+            <button className="w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold md:w-fit md:text-md">
               Sign up for FREE
             </button>
           </div>

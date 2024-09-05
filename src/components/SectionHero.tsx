@@ -7,24 +7,24 @@ export default function SectionHero() {
         <div className="flex h-full w-full flex-col justify-center gap-4">
           <div className="flex items-center gap-4">
             <CircleCheck size={20} absoluteStrokeWidth={true} color="#5046e6" />
-            <h6 className="md:text-md text-sm uppercase text-[#7d7d7f]">
+            <h6 className="text-sm uppercase text-[#7d7d7f] md:text-md">
               FREE 14 DAYS TRIAL
             </h6>
           </div>
           <h1 className="text-4xl font-extrabold text-[#f5f5f5] md:text-5xl lg:text-6xl">
             Experience seamless workflow.
           </h1>
-          <p className="text-md text-balance text-[#a7a7a7] md:text-lg">
+          <p className="text-balance text-md text-[#a7a7a7] md:text-lg">
             Maximize productivity and save time with our revolutionary approach.
             Deliver improved performance and better team coordination.
           </p>
           <div className="flex flex-wrap gap-4 md:flex-nowrap">
-            <button className="md:text-md w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold md:w-fit">
+            <button className="w-full rounded-xl bg-indigo-600 px-8 py-3 text-sm font-bold md:w-fit md:text-md">
               Try for free
             </button>
             <button className="flex w-full items-center justify-center gap-4 rounded-xl border-2 border-white px-8 py-3 md:w-fit">
               <PlayIcon size={20} absoluteStrokeWidth={true} />
-              <span className="md:text-md text-sm font-bold">
+              <span className="text-sm font-bold md:text-md">
                 See how it works
               </span>
             </button>

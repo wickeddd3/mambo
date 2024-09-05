@@ -2,7 +2,7 @@ export default function SectionClients() {
   return (
     <section className="mx-auto h-full max-w-7xl px-4 py-8 md:py-12">
       <div className="flex h-full w-full flex-col items-center justify-center gap-8">
-        <p className="text-md max-w-lg text-center text-[#58585a] md:text-lg">
+        <p className="max-w-lg text-center text-md text-[#58585a] md:text-lg">
           The trusted choice of professionals and teams across leading global
           companies
         </p>

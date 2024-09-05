@@ -8,11 +8,11 @@ export default function SectionPlans() {
           <h1 className="text-balance text-center text-2xl font-extrabold text-[#f5f5f5] md:text-start md:text-3xl lg:text-4xl">
             Flexible plans that adapt to your needs.
           </h1>
-          <p className="text-md max-w-xl text-center text-indigo-200 md:text-start md:text-lg">
+          <p className="max-w-xl text-center text-md text-indigo-200 md:text-start md:text-lg">
             Check out personalized pricing designed around your unique needs,
             ensuring you get the best value.
           </p>
-          <button className="md:text-md w-fit rounded-xl bg-indigo-600 px-14 py-3 text-sm font-semibold text-white">
+          <button className="w-fit rounded-xl bg-indigo-600 px-14 py-3 text-sm font-semibold text-white md:text-md">
             Go to Pricing
           </button>
         </div>
