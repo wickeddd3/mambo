@@ -55,7 +55,7 @@ export default function Navbar() {
           </div>
           <div className="relative">
             <h1 className="text-xl font-extrabold">Mambo</h1>
-            <span className="absolute -right-3 top-0 h-3 w-3 rounded-full bg-indigo-600"></span>
+            <span className="absolute -right-3 top-0 h-2.5 w-2.5 rounded-full bg-indigo-600"></span>
           </div>
         </div>
         <ul className="hidden items-center gap-8 lg:flex">
